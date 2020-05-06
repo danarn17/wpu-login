@@ -73,7 +73,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 //Add this to fetch the CLEARDB_DATABASE_URL
-$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$url = parse_url(getenv("mysql://b910733233de14:bf5a1eb4@us-cdbr-east-06.cleardb.net/heroku_1f743e5aa6f2402?reconnect=true"));
 
 $db['default'] = array(
 	'dsn'	=> '',
